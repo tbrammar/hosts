@@ -2,7 +2,7 @@
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Mon, 25 Apr 2022 12:42:13 GMT
+# last updated:   Wed, 04 May 2022 09:17:12 GMT
 # entries:        3676
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
@@ -11,7 +11,8 @@
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Sun, 05 May 2002 00:00:00
+# start date:    Thu, 16 May 2002 00:00:00
+0.0.0.0 1-1ads.com
 0.0.0.0 101com.com
 0.0.0.0 101order.com
 0.0.0.0 123freeavatars.com
@@ -660,7 +661,6 @@
 0.0.0.0 ads.tripod.lycos.de
 0.0.0.0 ads.tripod.lycos.es
 0.0.0.0 ads.tripod.lycos.it
-0.0.0.0 ads.tripod.lycos.nl
 0.0.0.0 ads.tso.dennisnet.co.uk
 0.0.0.0 ads.twitter.com
 0.0.0.0 ads.twojatv.info
@@ -1028,6 +1028,7 @@
 0.0.0.0 analytics.xelondigital.com
 0.0.0.0 analytics.yahoo.com
 0.0.0.0 analyticsapi.happypancake.net
+0.0.0.0 analytik.xyz
 0.0.0.0 ancientact.com
 0.0.0.0 aniview.com
 0.0.0.0 annonser.dagbladet.no
@@ -1686,6 +1687,7 @@
 0.0.0.0 email-clk.adguard.com
 0.0.0.0 email-opn.adguard.com
 0.0.0.0 email.m1.bktrksmail.com
+0.0.0.0 emaillinks.soundiiz.com
 0.0.0.0 emanog.com
 0.0.0.0 emebo.com
 0.0.0.0 emebo.io
@@ -2087,6 +2089,7 @@
 0.0.0.0 intellitxt.com
 0.0.0.0 intentsify.io
 0.0.0.0 interactive.forthnet.gr
+0.0.0.0 intercom-clicks.com
 0.0.0.0 intergi.com
 0.0.0.0 internetfuel.com
 0.0.0.0 interreklame.de
@@ -2244,9 +2247,6 @@
 0.0.0.0 logsss.com
 0.0.0.0 logua.com
 0.0.0.0 longinglettuce.com
-0.0.0.0 look.djfiln.com
-0.0.0.0 look.ichlnk.com
-0.0.0.0 look.opskln.com
 0.0.0.0 look.ufinkln.com
 0.0.0.0 loopme.com
 0.0.0.0 lop.com
@@ -2349,6 +2349,7 @@
 0.0.0.0 methodcash.com
 0.0.0.0 metrics-logger.spot.im
 0.0.0.0 metrics.api.drift.com
+0.0.0.0 metrics.articulate.com
 0.0.0.0 metrics.cnn.com
 0.0.0.0 metrics.consumerreports.org
 0.0.0.0 metrics.ctv.ca
@@ -2949,6 +2950,7 @@
 0.0.0.0 scratch2cash.com
 0.0.0.0 screechingfurniture.com
 0.0.0.0 screechingstove.com
+0.0.0.0 scripte-monster.de
 0.0.0.0 scrubswim.com
 0.0.0.0 sdkfjxjertertry.com
 0.0.0.0 seadform.net
@@ -2985,7 +2987,6 @@
 0.0.0.0 sexlist.com
 0.0.0.0 sextracker.com
 0.0.0.0 shakegoldfish.com
-0.0.0.0 shakesea.com
 0.0.0.0 shakesuggestion.com
 0.0.0.0 shakytaste.com
 0.0.0.0 shallowsmile.com
@@ -3457,7 +3458,6 @@
 0.0.0.0 uarating.com
 0.0.0.0 ucfunnel.com
 0.0.0.0 udkcrj.com
-0.0.0.0 udncoeln.com
 0.0.0.0 uib.ff.avast.com
 0.0.0.0 ukoffzeh.com
 0.0.0.0 ultimateclixx.com
