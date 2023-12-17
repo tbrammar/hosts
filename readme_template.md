@@ -20,7 +20,7 @@ sources can be found in the `hosts/data/` directory.
 [![last commit](https://img.shields.io/github/last-commit/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/commits/master)
 [![commit activity](https://img.shields.io/github/commit-activity/y/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/commits/master)
 
-# Unified hosts file @EXTENSIONS_HEADER@
+# @EXTENSIONS_HEADER@
 
 This repository consolidates several reputable `hosts` files, and merges them
 into a unified hosts file with duplicates removed. A variety of tailored hosts
@@ -40,8 +40,8 @@ files are provided.
 ## List of all hosts file variants
 
 This repository offers
-[15 different host file variants](https://github.com/StevenBlack/hosts/tree/master/alternates),
-in addition to the base variant.
+[31 different host file variants](https://github.com/StevenBlack/hosts/tree/master/alternates),
+in addition to the base variant, with and without the unified hosts included.
 
 The **Non GitHub mirror** is the link to use for some hosts file managers like
 [Hostsman for Windows](https://www.abelhadigital.com/hostsman/) that don't work
@@ -150,6 +150,10 @@ pip3 install --user -r requirements.txt
 at the user level. More information about it can be found on pip
 [documentation](https://pip.pypa.io/en/stable/reference/pip_install/?highlight=--user#cmdoption-user).
 
+### Option 4: Generate it in Google Colab
+
+Spin up a free remote [Google Colab](https://colab.research.google.com/drive/1tYWXpU2iuPDqN_o03JW9ml3ExO80eBLq?usp=sharing) environment.
+
 ### Common steps regardless of your development environment
 
 To **run unit tests**, in the top-level directory, run:
@@ -212,6 +216,9 @@ for configuring proximate DNS services on the local network.
 readmeData.json file used for generating readme.md files. This is useful if you
 are generating host files with additional whitelists or blacklists and want to
 keep your local checkout of this repo unmodified.
+
+`--nounifiedhosts`: `false` (default) or `true`, do not include the unified hosts
+file in the final hosts file. Usually used together with `--extensions`.
 
 `--compress`, or `-c`: `false` (default) or `true`, _Compress_ the hosts file
 ignoring non-necessary lines (empty lines and comments) and putting multiple
@@ -446,6 +453,8 @@ the
 [the comments within the `cmd` file](https://github.com/StevenBlack/hosts/blob/master/disable-dnscache-service-win.bat)
 for more details.
 
+Disabling the DNS Cache Service can cause issues with services and applications like *WSL* and it's possible to compress the hosts file and negate the need to disable the DNS caching service. You can try the *C++* Windows command line tool at [Hosts Compress - Windows](https://github.com/Lateralus138/hosts-compress-windows) (the recommended method) or the *PowerShell* compression script and check out the guide located at the [Hosts Compression Scripts](https://github.com/Lateralus138/hosts-compression-scripts) repository.
+
 ## Reloading hosts file
 
 Your operating system will cache DNS lookups. You can either reboot or run the
@@ -604,6 +613,8 @@ devices under a variety of operating systems.
 - [BlackHosts - Command Line Installer/Updater](https://github.com/Lateralus138/blackhosts)
   This is a cross-platform command line utility to help install/update hosts
   files found at this repository.
+- [Hosts Compression Scripts](https://github.com/Lateralus138/hosts-compression-scripts) These are various scripts to help compress hosts files (by the author of BlackHosts).
+- [Hosts Compress - Windows](https://github.com/Lateralus138/hosts-compress-windows) This is a *C++* Windows command line tool to help compress hosts files (by the author of BlackHosts and Hosts Compression Scripts). This is highly recommended over the scripts as it is **exponentially faster**.
 - [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Combining-Blocklists)
   provides a tool to build block lists from local and remote lists in common
   formats.
