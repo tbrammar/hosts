@@ -1,7 +1,7 @@
 # Title: hostsVN
-# Last modified: 11 Dec 2023 22:02 UTC+7
-# Version: 2312112202
-# Blocked: 1,809 domains
+# Last modified: 16 Apr 2024 11:35 UTC+7
+# Version: 2404161135
+# Blocked: 1,842 domains
 # Only include advertisers in Vietnam
 # Homepage: https://bigdargon.github.io/hostsVN/
 # GitHub: https://github.com/bigdargon/hostsVN
@@ -537,6 +537,9 @@
 0.0.0.0 tracking.api.media.zapps.vn
 0.0.0.0 za.zapps.vn
 0.0.0.0 zplayer.trk.zapps.vn
+#[zapps.me]
+0.0.0.0 analytics.zapps.me
+0.0.0.0 tech.zapps.me
 #[yomedia]
 0.0.0.0 analytics.yomedia.vn
 0.0.0.0 delivery.yomedia.vn
@@ -1172,6 +1175,7 @@
 0.0.0.0 mautic.vmax.vn
 #[piwik.*.vn]
 0.0.0.0 piwik.rta.vn
+0.0.0.0 piwik.softonic.vn
 #[piwik.*.com.vn]
 0.0.0.0 piwik.tienhiep.com.vn
 #[accesstrade.vn]
@@ -1320,6 +1324,7 @@
 #[aiservice.vn]
 0.0.0.0 boxpr.aiservice.vn
 0.0.0.0 js.aiservice.vn
+0.0.0.0 lio.aiservice.vn
 0.0.0.0 nspapi.aiservice.vn
 0.0.0.0 rec.aiservice.vn
 #[analytics.saas-vn.network]
@@ -1431,6 +1436,7 @@
 0.0.0.0 log-mekongasean.epicdn.me
 0.0.0.0 log-nhandan.epicdn.me
 0.0.0.0 log-thanhnien.epicdn.me
+0.0.0.0 log-thuonggiaonline.epicdn.me
 0.0.0.0 log-tinnhanhchungkhoan.epicdn.me
 #[thanhnien.vn]
 0.0.0.0 ads.thanhnien.vn
@@ -1488,6 +1494,8 @@
 0.0.0.0 pv.vipads.cc
 0.0.0.0 www.vipads.cc
 #[kernh41.com]
+0.0.0.0 ght.kernh41.com
+0.0.0.0 gk.kernh41.com
 0.0.0.0 kernh41.com
 0.0.0.0 static1.kernh41.com
 #[realclick.vn]
@@ -1496,6 +1504,21 @@
 0.0.0.0 realclick.vn
 0.0.0.0 stats.realclick.vn
 0.0.0.0 www.realclick.vn
+#[distinctrobin.com]
+0.0.0.0 agt.distinctrobin.com
+0.0.0.0 dfw.distinctrobin.com
+0.0.0.0 distinctrobin.com
+0.0.0.0 gko.distinctrobin.com
+0.0.0.0 imeg.distinctrobin.com
+0.0.0.0 obin.distinctrobin.com
+#[adop.asia]
+0.0.0.0 adop.asia
+0.0.0.0 cdn.adop.asia
+0.0.0.0 media.adop.asia
+0.0.0.0 www.adop.asia
+#[adlinknetwork.vn]
+0.0.0.0 service.adlinknetwork.vn
+0.0.0.0 syndication.adlinknetwork.vn
 # --- Block adsVN ---
 0.0.0.0 12signup.com
 0.0.0.0 ad-admin.vnay.vn
@@ -1549,6 +1572,7 @@
 0.0.0.0 ads.home.vn
 0.0.0.0 ads.homedy.net
 0.0.0.0 ads.ictnews.vn
+0.0.0.0 ads.inetgroup.vn
 0.0.0.0 ads.kiemsat.vn
 0.0.0.0 ads.lamchame.vn
 0.0.0.0 ads.laodongbinhduong.org.vn
@@ -1560,6 +1584,7 @@
 0.0.0.0 ads.phunuonline.com.vn
 0.0.0.0 ads.phunusuckhoe.vn
 0.0.0.0 ads.phunuvagiadinh.vn
+0.0.0.0 ads.salemall.vn
 0.0.0.0 ads.sexyland.vn
 0.0.0.0 ads.songmoi.vn
 0.0.0.0 ads.suckhoegiadinh.com.vn
@@ -1575,6 +1600,7 @@
 0.0.0.0 ads.xedoisong.vn
 0.0.0.0 ads.xemphimso.com
 0.0.0.0 ads.xemtivisohd.net
+0.0.0.0 ads.zunia.vn
 0.0.0.0 ads1.careerbuilder.vn
 0.0.0.0 ads8.fpt.vn
 0.0.0.0 adserver.lag.vn
@@ -1590,6 +1616,7 @@
 0.0.0.0 adtima.org
 0.0.0.0 adv.anhsangvacuocsong.vn
 0.0.0.0 adv.autosurf.vn
+0.0.0.0 adv.baoangiang.com.vn
 0.0.0.0 adv.baotintuc.vn
 0.0.0.0 adv.baovemoitruong.org.vn
 0.0.0.0 adv.thuvienphapluat.vn
@@ -1626,6 +1653,8 @@
 0.0.0.0 bgadx.com
 0.0.0.0 bidgear-syndication.com
 0.0.0.0 cdn-ads.thesaigontimes.vn
+0.0.0.0 cdn.adxcontent.com
+0.0.0.0 cdn.qc24h.com
 0.0.0.0 cdn2.cache.vn
 0.0.0.0 chiasephim.xyz
 0.0.0.0 click.vieon.vn
@@ -1643,10 +1672,10 @@
 0.0.0.0 dt.vnecdn.com
 0.0.0.0 duamilsyr.com
 0.0.0.0 financial-agent.headlines.pw
-0.0.0.0 gamma.cachefly.net
 0.0.0.0 go.vnecdn.com
 0.0.0.0 hexapinow.xyz
 0.0.0.0 iads.staticscdn.net
+0.0.0.0 iads.vision
 0.0.0.0 imgcdnbet.com
 0.0.0.0 interactive.tinnhanhchungkhoan.vn
 0.0.0.0 k8trangphim.com
@@ -1783,6 +1812,7 @@
 0.0.0.0 beta-log.anninhthudo.vn
 0.0.0.0 bi.vhost.vn
 0.0.0.0 btrack.homedy.com
+0.0.0.0 bubblyzucchini.com
 0.0.0.0 campaign.gitiho.com
 0.0.0.0 cdn.api-connect.io
 0.0.0.0 clicker.chiaki.vn
@@ -1825,6 +1855,7 @@
 0.0.0.0 log-dttc.sggp.org.vn
 0.0.0.0 log-en.nhandan.vn
 0.0.0.0 log-en.sggp.org.vn
+0.0.0.0 log.247post.vn
 0.0.0.0 log.anninhthudo.vn
 0.0.0.0 log.baobackan.com.vn
 0.0.0.0 log.baocaobang.vn
@@ -1849,6 +1880,7 @@
 0.0.0.0 log.kaka.me
 0.0.0.0 log.kienthuc.net.vn
 0.0.0.0 log.kinhtedouong.vn
+0.0.0.0 log.lichviet.org
 0.0.0.0 log.mekongasean.vn
 0.0.0.0 log.ngaynay.vn
 0.0.0.0 log.nhandan.vn
@@ -1861,6 +1893,7 @@
 0.0.0.0 log.tapchimattran.vn
 0.0.0.0 log.tapchitaichinh.vn
 0.0.0.0 log.theleader.vn
+0.0.0.0 log.thuonggiaonline.vn
 0.0.0.0 log.tienphong.vn
 0.0.0.0 log.tieudungthoinay.vn
 0.0.0.0 log.tinnhac.com
@@ -1881,6 +1914,7 @@
 0.0.0.0 logging.kinhtedothi.vn
 0.0.0.0 logs.1cdn.vn
 0.0.0.0 logs.docnhanh.com.vn
+0.0.0.0 logs.sanchoikns.vn
 0.0.0.0 logs.thethaovanhoa.vn
 0.0.0.0 logsbin.dantri.com.vn
 0.0.0.0 logscafef.channelvn.net
@@ -1891,6 +1925,8 @@
 0.0.0.0 mautic-learn.teky.edu.vn
 0.0.0.0 mautic.200lab.io
 0.0.0.0 mautic.teky.edu.vn
+0.0.0.0 measure.pti.com.vn
+0.0.0.0 measure.vndirect.com.vn
 0.0.0.0 mkt.hoanghamobile.com
 0.0.0.0 monitor.teko.vn
 0.0.0.0 mto.cgv.vn
@@ -1910,6 +1946,7 @@
 0.0.0.0 s.kenh14.vn
 0.0.0.0 s.soha.vn
 0.0.0.0 s6.textlink.vn
+0.0.0.0 sentry.mediacdn.vn
 0.0.0.0 smetrics.kone.vn
 0.0.0.0 st-a.vtvdigital.vn
 0.0.0.0 stat.headlines.pw
@@ -1932,7 +1969,6 @@
 0.0.0.0 sv-api-event.headlines.pw
 0.0.0.0 ta.toprework.vn
 0.0.0.0 tagging-qadkfoj6ha-as.a.run.app
-0.0.0.0 tech.zapps.me
 0.0.0.0 thongke.24h.com.vn
 0.0.0.0 thongke.arttimes.vn
 0.0.0.0 thongke.baotintuc.vn
@@ -1993,6 +2029,7 @@
 0.0.0.0 webpush.todo.vn
 0.0.0.0 webstag.kplus.vn
 0.0.0.0 widget.kyna.vn
+0.0.0.0 za.agiay.vn
 0.0.0.0 za.baomoi.com
 0.0.0.0 zigzag.vn
 0.0.0.0 ztrck.me
